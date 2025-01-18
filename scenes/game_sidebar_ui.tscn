@@ -17,9 +17,18 @@ offset_right = -0.544006
 offset_bottom = -1.0
 color = Color(0, 0, 0, 0.247059)
 
-[node name="RichTextLabel" type="RichTextLabel" parent="."]
+[node name="layout" type="VBoxContainer" parent="."]
 layout_mode = 0
-offset_left = 84.0
-offset_right = 285.0
-offset_bottom = 87.0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="money" type="RichTextLabel" parent="layout"]
+layout_mode = 2
+theme_override_colors/default_color = Color(0.357679, 0.954054, 0, 1)
+theme_override_font_sizes/normal_font_size = 19
 text = "$ 47, 759"
+
+[node name="purchase_items" type="VBoxContainer" parent="layout/money"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
