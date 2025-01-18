@@ -14,3 +14,7 @@ config/name="pollution-simulator-game"
 run/main_scene="res://MainMenu.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+GlobalSignalHandler="*res://autoload/GlobalSignalHandler.gd"
