@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://ulr5wq4nqyb6"]
 
-[ext_resource type="FontFile" uid="uid://diry7x2t658ir" path="res://assets/VCR_OSD_MONO_1.001.ttf" id="1_53m7p"]
+[ext_resource type="FontFile" uid="uid://brakkbdwjt8y6" path="res://assets/VCR_OSD_MONO_1.001.ttf" id="1_53m7p"]
 
 [node name="Control" type="Control"]
 layout_mode = 3

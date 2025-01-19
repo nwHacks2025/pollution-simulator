@@ -18,6 +18,7 @@ config/icon="res://icon.svg"
 [autoload]
 
 GlobalSignalHandler="*res://autoload/GlobalSignalHandler.gd"
+GameState="*res://autoload/GameState.gd"
 
 [display]
 
