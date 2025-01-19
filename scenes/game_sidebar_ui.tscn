@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://ulr5wq4nqyb6"]
 
-[ext_resource type="FontFile" uid="uid://diry7x2t658ir" path="res://assets/VCR_OSD_MONO_1.001.ttf" id="1_53m7p"]
+[ext_resource type="FontFile" uid="uid://dus6x3052cicl" path="res://assets/VCR_OSD_MONO_1.001.ttf" id="1_53m7p"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -48,3 +48,13 @@ size_flags_vertical = 3
 custom_minimum_size = Vector2(0, 50)
 layout_mode = 2
 text = "Oil Rig"
+
+[node name="Button2" type="Button" parent="ColorRect/layout/purchase_items"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+text = "Lake Dump"
+
+[node name="Button3" type="Button" parent="ColorRect/layout/purchase_items"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+text = "Emissions"
