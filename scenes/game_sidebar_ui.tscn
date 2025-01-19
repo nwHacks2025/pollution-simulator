@@ -4,9 +4,10 @@
 
 [node name="Control" type="Control"]
 layout_mode = 3
-anchor_right = 0.261
+anchors_preset = 15
+anchor_right = 1.0
 anchor_bottom = 1.0
-offset_right = 0.328003
+offset_left = 998.0
 grow_horizontal = 2
 grow_vertical = 2
 
@@ -27,24 +28,64 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="HSeparator" type="HSeparator" parent="ColorRect/layout"]
-custom_minimum_size = Vector2(0, 20)
-layout_mode = 2
-
-[node name="money" type="RichTextLabel" parent="ColorRect/layout"]
-custom_minimum_size = Vector2(0, 50)
+[node name="spacer" type="RichTextLabel" parent="ColorRect/layout"]
+custom_minimum_size = Vector2(0, 25)
 layout_mode = 2
 theme_override_colors/default_color = Color(0.357679, 0.954054, 0, 1)
 theme_override_fonts/normal_font = ExtResource("1_53m7p")
-theme_override_font_sizes/normal_font_size = 24
+bbcode_enabled = true
+
+[node name="money" type="RichTextLabel" parent="ColorRect/layout"]
+custom_minimum_size = Vector2(0, 20)
+layout_mode = 2
+theme_override_colors/default_color = Color(0.357679, 0.954054, 0, 1)
+theme_override_fonts/normal_font = ExtResource("1_53m7p")
 bbcode_enabled = true
 text = "[center]$ 47,759[/center]"
 
+[node name="pollution" type="RichTextLabel" parent="ColorRect/layout"]
+custom_minimum_size = Vector2(0, 20)
+layout_mode = 2
+theme_override_colors/default_color = Color(0.720467, 0.720468, 0.720467, 1)
+theme_override_fonts/normal_font = ExtResource("1_53m7p")
+bbcode_enabled = true
+text = "[center]359 AQI[/center]"
+
+[node name="HSeparator" type="HSeparator" parent="ColorRect/layout"]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+
 [node name="purchase_items" type="VBoxContainer" parent="ColorRect/layout"]
 layout_mode = 2
+size_flags_horizontal = 4
 size_flags_vertical = 3
 
 [node name="Button" type="Button" parent="ColorRect/layout/purchase_items"]
-custom_minimum_size = Vector2(0, 50)
+custom_minimum_size = Vector2(250, 50)
+layout_mode = 2
+text = "Oil Rig"
+
+[node name="Button2" type="Button" parent="ColorRect/layout/purchase_items"]
+custom_minimum_size = Vector2(250, 50)
+layout_mode = 2
+text = "Oil Rig"
+
+[node name="Button3" type="Button" parent="ColorRect/layout/purchase_items"]
+custom_minimum_size = Vector2(250, 50)
+layout_mode = 2
+text = "Oil Rig"
+
+[node name="Button4" type="Button" parent="ColorRect/layout/purchase_items"]
+custom_minimum_size = Vector2(250, 50)
+layout_mode = 2
+text = "Oil Rig"
+
+[node name="Button5" type="Button" parent="ColorRect/layout/purchase_items"]
+custom_minimum_size = Vector2(250, 50)
+layout_mode = 2
+text = "Oil Rig"
+
+[node name="Button6" type="Button" parent="ColorRect/layout/purchase_items"]
+custom_minimum_size = Vector2(250, 50)
 layout_mode = 2
 text = "Oil Rig"
