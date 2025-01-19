@@ -1,12 +1,15 @@
-[gd_scene format=3 uid="uid://e6okeiw1i688"]
+[gd_scene load_steps=2 format=3 uid="uid://e6okeiw1i688"]
 
-[node name="Control" type="Control"]
+[ext_resource type="FontFile" uid="uid://diry7x2t658ir" path="res://assets/VCR_OSD_MONO_1.001.ttf" id="1_i4jll"]
+
+[node name="list_element" type="Control"]
+custom_minimum_size = Vector2(250, 50)
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_right = -1031.0
-offset_bottom = -651.0
+offset_right = -1030.0
+offset_bottom = -670.0
 grow_horizontal = 2
 grow_vertical = 2
 
@@ -17,4 +20,5 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_fonts/font = ExtResource("1_i4jll")
 text = "Item"

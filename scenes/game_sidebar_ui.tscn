@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://ulr5wq4nqyb6"]
+[gd_scene load_steps=3 format=3 uid="uid://ulr5wq4nqyb6"]
 
-[ext_resource type="FontFile" uid="uid://brakkbdwjt8y6" path="res://assets/VCR_OSD_MONO_1.001.ttf" id="1_53m7p"]
+[ext_resource type="FontFile" uid="uid://diry7x2t658ir" path="res://assets/VCR_OSD_MONO_1.001.ttf" id="1_53m7p"]
+[ext_resource type="PackedScene" uid="uid://e6okeiw1i688" path="res://scenes/button_template.tscn" id="2_rhe0f"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -60,32 +61,17 @@ layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 3
 
-[node name="Button" type="Button" parent="ColorRect/layout/purchase_items"]
-custom_minimum_size = Vector2(250, 50)
+[node name="button1" parent="ColorRect/layout/purchase_items" instance=ExtResource("2_rhe0f")]
 layout_mode = 2
-text = "Oil Rig"
 
-[node name="Button2" type="Button" parent="ColorRect/layout/purchase_items"]
-custom_minimum_size = Vector2(250, 50)
+[node name="button2" parent="ColorRect/layout/purchase_items" instance=ExtResource("2_rhe0f")]
 layout_mode = 2
-text = "Oil Rig"
 
-[node name="Button3" type="Button" parent="ColorRect/layout/purchase_items"]
-custom_minimum_size = Vector2(250, 50)
+[node name="button3" parent="ColorRect/layout/purchase_items" instance=ExtResource("2_rhe0f")]
 layout_mode = 2
-text = "Oil Rig"
 
-[node name="Button4" type="Button" parent="ColorRect/layout/purchase_items"]
-custom_minimum_size = Vector2(250, 50)
+[node name="button4" parent="ColorRect/layout/purchase_items" instance=ExtResource("2_rhe0f")]
 layout_mode = 2
-text = "Oil Rig"
 
-[node name="Button5" type="Button" parent="ColorRect/layout/purchase_items"]
-custom_minimum_size = Vector2(250, 50)
+[node name="button5" parent="ColorRect/layout/purchase_items" instance=ExtResource("2_rhe0f")]
 layout_mode = 2
-text = "Oil Rig"
-
-[node name="Button6" type="Button" parent="ColorRect/layout/purchase_items"]
-custom_minimum_size = Vector2(250, 50)
-layout_mode = 2
-text = "Oil Rig"
