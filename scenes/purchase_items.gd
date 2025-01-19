@@ -1,16 +1,22 @@
 extends VBoxContainer
 
-var button_labels = ["Button 1", "Button 2", "Button 3"]
+var button_refs = [
+	$ColorRect/layout/purchase_items/button1,
+	$ColorRect/layout/purchase_items/button2,
+	$ColorRect/layout/purchase_items/button3,
+	$ColorRect/layout/purchase_items/button4,
+	$ColorRect/layout/purchase_items/button5,
+]
 
 func _ready():
-	# Debugging: Check if the VBoxContainer is active
-	print("VBoxContainer is ready")
-	
-	for label in button_labels:
-		var button = Button.new()
-		button.text = label
-		add_child(button)  # Add the button as a child of the VBoxContainer
-
+	print("el")
+	var element_dict: Dictionary = {
+		# [Price, AQI effect]
+		"Paper Straw": [58, 2],
+		"Oil Drill": [1400, 25]
+	}
+	for i in len(element_dict.keys):
+		print(element_dict[i])
 
 
 
